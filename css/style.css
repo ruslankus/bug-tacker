@@ -1,0 +1,24 @@
+
+header > nav, #main-container {
+	max-width:1200px;
+	margin:0 auto;}
+	
+	
+	
+/*---- activities ------*/
+.act {
+	padding:5px;
+	margin-bottom:10px;
+	border-radius:5px;
+	box-shadow:1px 1px 2px 0px rgba(50, 50, 50, 0.75);}
+
+.act-top > div {
+	width:60%;
+	float:left;}
+	
+.act-top > div:first-child, .act-top > div:last-child  {
+	width:20%;}
+	
+.act-bottom > div {
+	float:left;}		
+	
