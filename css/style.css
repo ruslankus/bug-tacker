@@ -6,7 +6,28 @@ header > nav, #main-container {
 	max-width:1200px;
 	margin:0 auto;}
 	
+header {
+	background-color:#53cdfc}	
 	
+header > nav.navbar {
+	color:#333;
+	border:none;
+	background-color:transparent;}
+	
+#bs-navbar-collapse {}
+
+.navbar-default ul.nav > li > a {
+	color:#333;}	
+	
+.navbar-default ul.nav > li > a:hover {
+	color:white;}
+	
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color:transparent;
+	color:#333;}	
+		
 	
 /*---- activities ------*/
 .act {
@@ -105,6 +126,7 @@ p.onhold {
 	display:block;
 	color:#545557;
 	width:33%;}
+	
 	
 	
 		
