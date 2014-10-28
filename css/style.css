@@ -7,7 +7,7 @@ header > nav, #main-container {
 	
 /*---- activities ------*/
 .act {
-	padding:5px;
+	padding:5px 0 ;
 	margin-bottom:10px;
 	border-radius:5px;
 	box-shadow:1px 1px 2px 0px rgba(50, 50, 50, 0.75);}
@@ -20,5 +20,22 @@ header > nav, #main-container {
 	width:20%;}
 	
 .act-bottom > div {
+	width:14.2857%;
 	float:left;}		
 	
+.act-bottom > div > span {
+	display:block;}
+	
+.act-top-info {
+	padding-right:5px;}
+
+.act-top-info > p:first-child {
+	margin-bottom:30px;}
+	
+.act-top-info > p:last-child {
+	padding:5px;
+	text-align:center;
+	background-color:#C1773D;
+	color:white;}
+	
+		
