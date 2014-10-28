@@ -127,6 +127,18 @@ p.onhold {
 	color:#545557;
 	width:33%;}
 	
+.act-top-time {
+	padding-right:10px;
+	text-align:right;
+	padding-top:10px;}
+	
+.act-top-time > p > span {
+	font-size:13px;
+	line-height:15px;
+	display:block;}
+	
+.act-top-time > p > span:first-child {
+	color:#abb2b6;}
 	
 	
 		
