@@ -16,7 +16,11 @@ header > nav.navbar {
 	
 #bs-navbar-collapse {}
 
+#bs-navbar-collapse > ul {
+	margin-left:150px;}
+
 .navbar-default ul.nav > li > a {
+	font-size:17px;
 	color:#333;}	
 	
 .navbar-default ul.nav > li > a:hover {
@@ -28,6 +32,12 @@ header > nav.navbar {
 	background-color:transparent;
 	color:#333;}	
 		
+.navbar-header a.navbar-brand {
+	padding:5px;
+	background-color:#FFFFFF;}
+	
+.navbar-header a.navbar-brand:hover {
+	background-color:#FFFFFF;}
 	
 /*---- activities ------*/
 .act {
@@ -140,7 +150,13 @@ p.onhold {
 .act-top-time > p > span:first-child {
 	color:#abb2b6;}
 	
+/*--- aside ----*/
+aside > ul {
+	list-style:none;
+	padding-left:0}
 	
+aside > ul > li {
+	margin-top:10px;}
 		
 	
 	
