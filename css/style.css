@@ -1,3 +1,6 @@
+body {
+	background-color:#f5f5f5;
+	color:#223a5e;}
 
 header > nav, #main-container {
 	max-width:1200px;
@@ -7,7 +10,7 @@ header > nav, #main-container {
 	
 /*---- activities ------*/
 .act {
-	padding:5px 0 ;
+	background-color:white;
 	margin-bottom:10px;
 	border-radius:5px;
 	box-shadow:1px 1px 2px 0px rgba(50, 50, 50, 0.75);}
@@ -19,9 +22,23 @@ header > nav, #main-container {
 .act-top > div:first-child, .act-top > div:last-child  {
 	width:20%;}
 	
+.act-bottom {
+	height:45px;
+	width:100%;
+	display:table;}	
+	
 .act-bottom > div {
-	width:14.2857%;
-	float:left;}		
+	padding-left:3px;
+	height:45px;
+	display:block;
+	width:16%;
+	float:left;}
+
+.act-bottom > div:last-child {
+	width:8%;}
+	
+.act-bottom > div:first-child {
+	width:12%;}
 	
 .act-bottom > div > span {
 	display:block;}
@@ -29,13 +46,69 @@ header > nav, #main-container {
 .act-top-info {
 	padding-right:5px;}
 
-.act-top-info > p:first-child {
-	margin-bottom:30px;}
 	
 .act-top-info > p:last-child {
 	padding:5px;
 	text-align:center;
-	background-color:#C1773D;
 	color:white;}
+	
+p.new {
+	background-color:#f59e32;}
+	
+p.solved {
+	background-color:#a6c41f;}
+	
+p.onhold {
+	background-color:#9b953b;}
+		
+.act-bottom {
+	background-color:#f4f8fb;}
+	
+.act-bottom > div {
+	display:table-cell;
+	border-right:1px solid #ccc;} 
+	
+.act-bottom > div > span:first-child {
+	color:#b7b1a7;}
+	
+.act-bottom > div:last-child > span {
+	font-size:18px;
+	text-align:center;
+	line-height:45px;
+	color:#545557;}
+	
+	
+	
+.act-top-head > h3 {
+	font-weight:600;
+	margin-top:10px;
+	margin-bottom:5px;
+	font-size:18px;}
+	
+.act-top-head > p {
+	color:#73706f;}	
+	
+.act-top-info {
+	padding-right:20px;
+	padding-top:10px;}
+			
+.act-top-info > p:first-child {
+	text-align:center;
+	margin-bottom:15px;}
+	
+.act-link-holder > a {
+	font-size:17px;
+	line-height:45px;
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	color:#545557;
+	width:33%;}
+	
+	
+		
+	
+	
 	
 		
