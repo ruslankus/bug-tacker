@@ -1,6 +1,8 @@
 body {
-	background-color:#f5f5f5;
-	color:#223a5e;}
+	background-color:#f5f5f5;}
+	
+body p {
+	color:#2e2e2e;}
 
 header > nav, #main-container {
 	max-width:1200px;
@@ -72,6 +74,8 @@ header > nav.navbar {
 	font-weight:600;
 	color:#8b8b8b;
 	margin-bottom:5px;}
+	
+	
 	
 /*---- activities ------*/
 .content-holder {
@@ -233,17 +237,66 @@ aside > ul > li {
 	font-size:16px;
 	font-weight:600;
 	color:#868686;}
+	
+	
 
 .new.badge {
 	background-color:#53cdfc;
-	color:black;}	
+	color:black;}
+	
+.res-holder > div:first:child {}
+
+.res-holder > div:first-child > div {
+	padding-left:0;
+	padding-right:0}
+	
+.res-holder > div:first-child > div > h4 {
+	font-size:16px;
+	font-weight:600;
+	color:#868686;}
+	
+.res-holder > div:first-child > div:last-child {
+	text-align:right;}
+
+.res-holder > div:first-child > div:last-child > a {
+	text-transform:uppercase;}
+
 	
 .resolitions {
+	padding:15px 30px;
 	background-color:white;
 	margin-bottom:10px;
 	border-radius:5px;
 	box-shadow:1px 1px 2px 0px rgba(50, 50, 50, 0.75);}
 	
+.res-top {
+	border-bottom:1px solid #e5e5e5;}
+	
+.res-top > div {
+	padding-left:0}
+	
+.res-top > div > p {
+	text-align:left;
+	color:#7b7b7b;}
+
+.res-top > div > p > a {
+	padding-left:5px;
+	color:inherit;}
+	
+.res-top > div > p > a:hover {
+	color:#3d3d3d;}
+
+.res-top > div:last-child {
+	padding-right:0;}
+	
+.res-top > div:last-child > p {
+	text-align:right;}
+	
+.res-bottom {
+	padding-top:10px;}
 	
 	
+.res-bottom > p {
+	font-size:14px;
+	line-height:20px;}	
 		
