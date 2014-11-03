@@ -212,18 +212,31 @@ aside > ul > li {
 	margin-top:10px;}
 	
 /*----- resoliutions -------*/
-#issues > h5 {
+#issues > h5, #issues > h4 {
 	font-size:16px;
 	font-weight:600;
 	color:#868686;}
 	
-#issues > h5 > span {
+#issues > h5 > span, #issues > h4 > span  {
 	display:block;}
+	
+#issues > h4 > span:last-child {
+	font-weight:400;
+	font-size:24px;
+	color:#2e2e2e;}
 	
 #issues > h5 > span:last-child {
 	font-weight:400;
 	color:#2e2e2e;}
 		
+.condition { 	
+	font-size:16px;
+	font-weight:600;
+	color:#868686;}
+
+.new.badge {
+	background-color:#53cdfc;
+	color:black;}	
 	
 .resolitions {
 	background-color:white;
