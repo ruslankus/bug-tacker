@@ -88,6 +88,26 @@ header > nav.navbar {
 	font-weight:600;
 	color:#8b8b8b;
 	margin-bottom:25px;}
+	
+	
+.act-holder > div:first:child {}
+
+.act-holder > div:first-child > div {
+	padding-left:0;
+	padding-right:0}
+	
+.act-holder > div:first-child > div > h4 {
+	font-size:16px;
+	font-weight:600;
+	color:#868686;}
+	
+.act-holder > div:first-child > div:last-child {
+	text-align:right;}
+
+.act-holder > div:first-child > div:last-child > a {
+	text-transform:uppercase;}
+	
+	
 		
 .act {
 	background-color:white;
@@ -99,8 +119,21 @@ header > nav.navbar {
 	width:60%;
 	float:left;}
 	
-.act-top > div:first-child, .act-top > div:last-child  {
-	width:20%;}
+.act-top > div:first-child { 
+	width:17.318%}
+	
+.act-top > div:last-child  {
+	width:22.682%}	
+	
+p.new {
+	background-color:#f59e32;}
+	
+p.solved {
+	background-color:#a6c41f;}
+	
+p.onhold {
+	background-color:#9b953b;}
+
 	
 .act-bottom {
 	height:45px;
@@ -114,11 +147,10 @@ header > nav.navbar {
 	width:16%;
 	float:left;}
 
-.act-bottom > div:last-child {
-	width:8%;}
+.act-bottom > div:last-child {}
 	
 .act-bottom > div:first-child {
-	width:12%;}
+	width:17.318%}
 	
 .act-bottom > div > span {
 	display:block;}
@@ -132,30 +164,16 @@ header > nav.navbar {
 	text-align:center;
 	color:white;}
 	
-p.new {
-	background-color:#f59e32;}
-	
-p.solved {
-	background-color:#a6c41f;}
-	
-p.onhold {
-	background-color:#9b953b;}
 		
 .act-bottom {
 	background-color:#f4f8fb;}
 	
-.act-bottom > div {
-	display:table-cell;
-	border-right:1px solid #ccc;} 
+.act-bottom > div {}
 	
 .act-bottom > div > span:first-child {
 	color:#b7b1a7;}
 	
-.act-bottom > div:last-child > span {
-	font-size:18px;
-	text-align:center;
-	line-height:45px;
-	color:#545557;}
+.act-bottom > div:last-child > span {}
 	
 	
 	
@@ -163,16 +181,19 @@ p.onhold {
 	font-weight:600;
 	margin-top:10px;
 	margin-bottom:5px;
-	font-size:18px;}
+	font-size:16px;}
 	
 .act-top-head > p {
-	color:#73706f;}	
+	font-size:14px;
+	line-height:20px;
+	color:#7b7b7b;}	
 	
 .act-top-info {
-	padding-right:20px;
 	padding-top:10px;}
 			
 .act-top-info > p:first-child {
+	font-size:12px;
+	color:#7b7b7b;
 	text-align:center;
 	margin-bottom:15px;}
 	
@@ -184,17 +205,16 @@ p.onhold {
 	float:left;
 	display:block;
 	color:#545557;
-	width:33%;}
+	width:25%;}
 	
 .act-top-time {
-	padding-right:10px;
+	padding-right:30px;
 	text-align:right;
 	padding-top:10px;}
 	
 .act-top-time > p > span {
-	font-size:13px;
-	line-height:15px;
-	display:block;}
+	color:#7b7b7b;
+	font-size:12px;}
 	
 .act-top-time > p > span:first-child {
 	color:#abb2b6;}
