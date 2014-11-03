@@ -212,7 +212,18 @@ aside > ul > li {
 	margin-top:10px;}
 	
 /*----- resoliutions -------*/
-
+#issues > h5 {
+	font-size:16px;
+	font-weight:600;
+	color:#868686;}
+	
+#issues > h5 > span {
+	display:block;}
+	
+#issues > h5 > span:last-child {
+	font-weight:400;
+	color:#2e2e2e;}
+		
 	
 .resolitions {
 	background-color:white;
