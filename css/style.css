@@ -41,6 +41,8 @@ header > nav.navbar {
 	background-color:none;}
 	
 #lang-selector {
+	font-size:17px;
+	text-transform:uppercase;
 	border:none;
 	width:70px;}
 
@@ -48,6 +50,7 @@ header > nav.navbar {
 	min-width:72px;	}
 	
 #lang-selector ~ ul > li> a {
+	text-transform:uppercase;
 	font-size:16px;}
 	
 #user-status {
