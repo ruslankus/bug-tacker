@@ -32,7 +32,7 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">LT<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" id="lang-selector" data-toggle="dropdown">LT<span class="caret"></span></a>
                 
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">RU</a></li>
@@ -41,7 +41,7 @@
                 </li><!--/dropdown -->
             
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">&nbsp;</span>Hello Vasia <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" id="user-status" data-toggle="dropdown"><span class="glyphicon glyphicon-user">&nbsp;</span>Hello Vasia <span class="caret"></span></a>
                 
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Logout</a></li>
@@ -50,6 +50,8 @@
                     </ul><!--/dropdown-menu -->
                 </li><!--/dropdown -->
             </ul><!--/nav-bar -->
+            
+            
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -70,102 +72,25 @@
             
             <div class="col-md-10 content-holder" id="index">
                 
-                <div class="act-holder">
-					<h4>Last issues:</h4>
+                <div class="projects-holder">
                     
-                	<div class="act">
-                    	<div class="act-top clearfix">
-                        	<div class="act-top-info">
-                            	<p>#23456789777</p>
-                                <p class="new"> NEW </p>
-                            </div><!--/act-top-info -->
-                            <div class="act-top-head">
-                            	<div class="act-top-title clearfix">
-                                	<div class="col-md-6">
-                            			<h3>Project name 1</h3>
-                                    </div>
-                                    <div class="act-top-time col-md-6">
-                                        <p><span>Last uptades</span> <span>21.10.2014</span></p>
-                                    </div><!--/act-top-time -->
-                                </div>
-                                
-                                <p>Issues title bla blA BLA</p>
-                            </div><!--/act-top-head -->
+                	<div class="project">
+                    	<div class="project-top clearfix">
+                        	<div class="col-md-8">
+                            	<h3>Безумный Вася смерти 1</h3>
+                                <p>Дата созaдания: 05.10.2014</p>
+                            </div>
+                            <div class="col-md-4">
+								<a href="#"><span class="glyphicon glyphicon-cog"></span></a>                            
+								<a href="#"><span class="glyphicon glyphicon-trash"></span></a>                            
+                            </div>
                         </div><!--/act-top -->
-                        <div class="act-bottom clearfix">
-                        	<div class="act-link-holder">
-                            	<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
-                            	<a href="#"><span class="glyphicon glyphicon-warning-sign"></span></a>
-                            	<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
-                            </div><!--/act-link-holder -->
-                            <div class="act-bottom-assigned">
-                            	<span>assigned:</span>
-                                <span>V.pupkin</span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-rised">
-                            	<span>rised:</span>
-                                <span>V.pupkin</span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-prio">
-                            	<span>prioryty:</span>
-                                <span><strong>hight</strong></span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-cat">
-                            	<span>Category:</span>
-                                <span class="text-capitalize">Category support</span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-due">
-                            	<span>due in:</span>
-                                <span>21 days</span>
-                            </div><!--/act-bottom-asign -->
-                        </div><!--/act-bottom -->
-                    </div><!--/act -->
-                    
-                	<div class="act">
-                    	<div class="act-top clearfix">
-                        	<div class="act-top-info">
-                            	<p>#23456789777</p>
-                                <p class="solved"> solved </p>
-                            </div><!--/act-top-info -->
-                            <div class="act-top-head">
-                            	<div class="act-top-title clearfix">
-                                	<div class="col-md-6">
-                            			<h3>Project name 4</h3>
-                                    </div>
-                                    <div class="act-top-time col-md-6">
-                                        <p><span>Last uptades</span> <span>21.10.2014</span></p>
-                                    </div><!--/act-top-time -->
-                                </div>
-                                
-                                <p>Issues title 4353 bla blA BLA</p>
-                            </div><!--/act-top-head -->
-                        </div><!--/act-top -->
-                        <div class="act-bottom clearfix">
-                        	<div class="act-link-holder">
-                            	<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
-                            	<a href="#"><span class="glyphicon glyphicon-warning-sign"></span></a>
-                            	<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
-                            </div><!--/act-link-holder -->
-                            <div class="act-bottom-assigned">
-                            	<span>assigned:</span>
-                                <span>V.pupkin</span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-rised">
-                            	<span>rised:</span>
-                                <span>V.pupkin</span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-prio">
-                            	<span>prioryty:</span>
-                                <span><strong>hight</strong></span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-cat">
-                            	<span>Category:</span>
-                                <span class="text-capitalize">Category support</span>
-                            </div><!--/act-bottom-asign -->
-                            <div class="act-bottom-due">
-                            	<span>due in:</span>
-                                <span>21 days</span>
-                            </div><!--/act-bottom-asign -->
+                        <div class="project-bottom clearfix">
+                        	<div>Приоритет<span>высокий </span></div>
+                        	<div>Разработчики: 4  </div>
+                        	<div>Пользователи: 10</div>
+                        	<div>Проблемы: 3 </div>
+                        	<div>Решенные проблемы: 2</div>
                         </div><!--/act-bottom -->
                     </div><!--/act -->
                     
