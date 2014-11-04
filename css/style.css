@@ -40,16 +40,24 @@ header > nav.navbar {
 .navbar-header a.navbar-brand:hover {
 	background-color:none;}
 	
-#lng-list > a {
-    text-transform:uppercase;}
-    
-#lng-list > ul > li > a {
-    font-size: 17px;
-    text-transform:uppercase;}
+#lang-selector {
+	border:none;
+	width:70px;}
 
-#lng-list .dropdown-menu {
-    min-width:40px;    
-    background-color:none;}
+#lang-selector ~ ul {
+	min-width:72px;	}
+	
+#lang-selector ~ ul > li> a {
+	font-size:16px;}
+	
+#user-status {
+	border:none;
+	width:200px;}
+	
+#user-status ~ ul {
+	width:200px;}
+			
+	
 	
 /*--- project -----*/
 #project > h4 > span:first-child {
@@ -119,56 +127,88 @@ header > nav.navbar {
 	width:60%;
 	float:left;}
 	
+.act-top > .act-top-head {
+	padding-right:30px;
+	padding-left:30px;}
+	
+.act-top-head .act-top-title > div {
+	padding-right:0;
+	padding-left:0}	 	
+	
 .act-top > div:first-child { 
 	width:17.318%}
 	
 .act-top > div:last-child  {
-	width:22.682%}	
+	width:82.682%}	
 	
 p.new {
 	background-color:#f59e32;}
 	
 p.solved {
-	background-color:#a6c41f;}
+	background-color:#47c5b8;}
 	
 p.onhold {
-	background-color:#9b953b;}
+	background-color:#ffd200;}
 
+p.closed {
+	background-color:#80e200;}
 	
 .act-bottom {
+	background-color:#f4f8fb;
 	height:45px;
 	width:100%;
 	display:table;}	
 	
 .act-bottom > div {
-	padding-left:3px;
+	padding-left:30px;
+	border-right:1px solid #d2d9de;
 	height:45px;
 	display:block;
-	width:16%;
 	float:left;}
 
-.act-bottom > div:last-child {}
+.act-bottom > div:last-child {
+	border-right:none;}
 	
 .act-bottom > div:first-child {
+	padding-left:0;
 	width:17.318%}
 	
 .act-bottom > div > span {
 	display:block;}
 	
-.act-top-info {
-	padding-right:5px;}
+.act-bottom > .act-bottom-assigned {
+	width:19.209%}
+	
+.act-bottom > .act-bottom-rised {
+	width:18.983%}
+	
+.act-bottom > .act-bottom-prio {
+	width:14.237%}
+	
+.act-bottom > .act-bottom-cat {
+	width:18.079%;}	
+	
+.act-bottom  > .act-link-holder ~ div {
+	padding-top:10px;}
+	
+.act-bottom  > .act-link-holder ~ div > span:first-child {
+	color:#7b7b7b;}	
+	
+.act-bottom  > .act-link-holder ~ div > span {
+	line-height:15px;
+	font-size:12px;
+	color:#004c69;}
 
+.act-bottom  > .act-link-holder ~ div > span:first-letter {
+	text-transform:uppercase;}
+	
 	
 .act-top-info > p:last-child {
 	padding:5px;
+	font-weight:600;
 	text-align:center;
-	color:white;}
+	color:black;}
 	
-		
-.act-bottom {
-	background-color:#f4f8fb;}
-	
-.act-bottom > div {}
 	
 .act-bottom > div > span:first-child {
 	color:#b7b1a7;}
@@ -177,7 +217,7 @@ p.onhold {
 	
 	
 	
-.act-top-head > h3 {
+.act-top-title > div > h3 {
 	font-weight:600;
 	margin-top:10px;
 	margin-bottom:5px;
@@ -205,7 +245,7 @@ p.onhold {
 	float:left;
 	display:block;
 	color:#545557;
-	width:25%;}
+	width:33%;}
 	
 .act-top-time {
 	padding-right:30px;
