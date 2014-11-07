@@ -176,7 +176,7 @@ div.proj-issues {
 	
 	
 		
-.act , .project {
+.act , .project, .form-holder {
 	background-color:white;
 	margin-bottom:10px;
 	border-radius:5px;
@@ -419,3 +419,22 @@ aside > ul > li {
 	font-size:14px;
 	line-height:20px;}	
 		
+
+/*----- add - issue ------*/
+#add-issue .form-holder > h2 {
+	margin:0;
+	font-size:16px;
+	font-weight:600;
+	color:#004c69;}
+
+.form-holder {
+	padding:20px 30px;}
+	
+.form-holder > form {
+	margin-top:30px;}
+	
+	
+.form-holder .form-group > label {
+	color:#868686;
+	font-size:12px;
+	font-weight:400;}	
