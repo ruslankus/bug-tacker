@@ -500,7 +500,7 @@ textarea.form-control {
 	border-radius:5px;
 	box-shadow:1px 1px 2px 0px rgba(50, 50, 50, 0.75);}
 	
-.user-setting-holder > div > div > h2 {	
+.user-setting-holder > div > div > h2 , .form-holder > h2 {	
 	margin:0;
 	font-size:16px;
 	font-weight:600;
@@ -515,3 +515,7 @@ textarea.form-control {
 	
 .user-setting-holder > table {
 	margin-top:10px;}
+	
+/* --- add - user ---*/
+#add-user input.form-control {
+	width:250px;}	
