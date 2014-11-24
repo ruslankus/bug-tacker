@@ -350,7 +350,7 @@ aside > ul > li {
 	font-weight:400;
 	color:#2e2e2e;}
 		
-.condition { 	
+.condition, .photo > span:first-child { 	
 	font-size:16px;
 	font-weight:600;
 	color:#868686;}
@@ -636,7 +636,7 @@ a.btn-delete > span {
 	background-color:#1184c0;}
 	
 /*--- login ----*/
-.form-holder {
+#login > .form-holder {
 	width:477px;
 	margin-top:100px;
 	margin-left:auto;
