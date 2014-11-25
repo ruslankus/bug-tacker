@@ -580,6 +580,10 @@ a.btn-delete > span {
 #add-user input.form-control {
 	width:250px;}
 	
+.btn-holder > a.btn {
+	text-transform:uppercase;
+	margin-right:20px;}	
+	
 /* --- modals windows --*/
 .modal-dialog {
 	margin-top:50px;
