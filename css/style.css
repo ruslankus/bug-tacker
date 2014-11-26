@@ -684,9 +684,59 @@ a.btn-delete > span {
 				
 .control-holder > .btn-holder > a:hover {
 	text-decoration:none;}
+	
+/*---- translation ------*/	
+#translation {
+	padding-top:15px;
+	background-color:white;
+	margin-bottom:10px;
+	border-radius:5px;
+	box-shadow:1px 1px 2px 0px rgba(50, 50, 50, 0.75);}
+	
+#translation .btn {
+	text-transform:uppercase;}
+	
+.tr-header > div > h2 {
+	line-height:32px;
+	font-size:16px;
+	font-weight:600;
+	margin-top:0;
+	margin-bottom:0;}
+	
+.tr-header {
+	margin-bottom:30px;}	
+	
+.btns-holder > a {
+	float:right;
+	margin-left:15px;}
+	
+.filters > form > * {
+	margin-right:20px;}
 		
+.filters > form > select, .filters > form > input {
+	height:30px;
+	border:1px solid #d2d9de;}			
+
+.filters > form > input {
+	padding-left:5px;}
 	
+#translation .table {
+	margin-top:20px;}
 	
+#translation .table > tbody > tr > td {
+	border-right:none;}
 	
+#translation .table > thead  th {
+	padding:0;
+	text-align:left; }
 	
+#translation .table > thead tr > th {
+	text-align:right}
+					
+	
+#translation .table > tbody > tr > td:first-child {
+	border-left:none;
+	padding:0;
+	text-align:left;
+	width:40px;}
 		
