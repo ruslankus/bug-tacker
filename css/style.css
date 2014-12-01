@@ -822,8 +822,21 @@ a.btn-delete > span {
 		
 .div-table > form.tr > .td > a:last-child {
 	margin-left:10px;
-	color:#d9534f; }	
+	color:#d9534f; }
 	
-			
-			
+/*--- project - to - user ----*/
+#project-to-user > .tables-holder {
+	width:100%;}
+
+#project-to-user > .tables-holder > div {
+	min-height:10px;
+	width:10%;
+	float:left;}
+	
+#project-to-user > .tables-holder > div:first-child, 
+#project-to-user > .tables-holder > div:last-child {
+	width:45%;}
+	
+.tables-holder > div > table {
+	width:100%;}			
 		
