@@ -861,8 +861,6 @@ a.btn-delete > span {
 .tables-holder > div > table {
 	width:100%;}
 	
-.l-t-holder {padding-left:0px;}	
-	
 .tables-holder > div > table  tr > th {
 	color:#868686;
 	text-align:left;
@@ -876,27 +874,48 @@ a.btn-delete > span {
 .tables-holder > div > table  tr > th:last-child {
 	text-align:right;}
 	
+.l-t-holder {padding-left:0px;}	
+
+
+.l-t-holder > div.table {
+	width:100%;
+	display:table;}
+	
+.l-t-holder > div.table > form.tr {
+	display:table-row;}
+	
+.l-t-holder > div.table > form.tr > .td {
+	text-align:left;
+	display:table-cell;}
+	
+.l-t-holder > div.table > form.tr > .td:first-child {
+	width:45px;
+	text-align:left;}
+	
+	
 .tables-holder > div > table  tr > td:first-child {
 	text-align:left;}
 	
-.tables-holder > div > table  tr > td:last-child {
+.tables-holder > div > table  tr > td:last-child,
+.l-t-holder > div.table > form.tr > .td:last-child {
 	padding-right:5px;
 	padding-top:3px;
 	padding-bottom:3px;
 	text-align:right;}
 	
-.tables-holder > div > table > tbody > tr:nth-child(odd) > td {
+.tables-holder > div > table > tbody > tr:nth-child(odd) > td,
+.l-t-holder > div.table > form.tr:nth-child(odd) > .td {
 	background-color:#f4f8fb;}
 	
-.l-t-holder  a.btn, .r-t-holder  a.btn {
+.l-t-holder  .btn, .r-t-holder .btn {
 	line-height:26px;
 	width:35px;
 	height:28px;}
 
-.l-t-holder  a.btn {
+.l-t-holder  .btn {
 	font-size:14px;}
 	
-.r-t-holder  a.btn {
+.r-t-holder  .btn {
 	font-size:13px;}
 		
 .tables-holder > div {
