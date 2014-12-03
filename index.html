@@ -91,7 +91,7 @@
                             </div>
                             <div class="col-md-4">
 								<a href="#" title="edit"><span class="glyphicon glyphicon-cog"></span></a>                            
-								<a href="#" title="delete"><span class="glyphicon glyphicon-trash"></span></a>                            
+								<a href="#" class="prj-del" data-prj="2" data-toggle="modal" data-target="#deleteProject" title="delete"><span class="glyphicon glyphicon-trash"></span></a>                            
                             </div>
                         </div><!--/act-top -->
                         <div class="project-bottom clearfix">
@@ -111,7 +111,7 @@
                             </div>
                             <div class="col-md-4">
 								<a href="#" title="edit"><span class="glyphicon glyphicon-cog"></span></a>                            
-								<a href="#" title="delete"><span class="glyphicon glyphicon-trash"></span></a>                            
+								<a href="#" data-toggle="modal" data-target="#deleteProject" title="delete"><span class="glyphicon glyphicon-trash"></span></a>                            
                             </div>
                         </div><!--/act-top -->
                         <div class="project-bottom clearfix">
@@ -125,6 +125,35 @@
                     
                     
             	</div><!--/act-holder -->
+                
+                <div class="modal-holder">
+                
+                    <div class="modal fade" id="deleteProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <form method="post" action="#" >
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title">Delete user</h4>
+                                </div><!--/modal-header -->
+                                
+                                <div class="modal-body clearfix">
+                                    A you sure to delete user Vasia Pupkin?
+                                </div><!--/modal-body -->
+                            
+                                <div class="modal-footer">
+                                    <div class="btns-holder col-md-8 col-md-offset-4 clearfix">
+                                        <button type="button" class="btn btn-info btn-sm pull-left" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary btn-sm pull-right">Save changes</button>
+                                    </div><!--/btns-holder -->
+                                </div><!--/modasl-footer -->
+                             </form>   
+                            </div><!--/modal-content -->
+                        </div><!--/modal-dialog -->
+                    </div><!-- /deleteUser -->
+                        
+                                        
+                </div><!--/modal holder -->
          	</div> <!--/content -holder -->  
         </div><!--/row -->
     </div><!--/container-fluid -->
@@ -134,5 +163,6 @@
 </footer>
 <script src="js/jquery-1.9.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/project_list.js"></script>
 </body>
 </html>
